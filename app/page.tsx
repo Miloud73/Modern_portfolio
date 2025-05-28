@@ -1,9 +1,12 @@
+import Hero from "@/components/main/Hero";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
-      <div>hello world</div>
-    </div>
+    <main className="h-full w-full">
+      <div className="flex flex-col h-[850px] w-[] gap-20">
+        <Hero/>
+      </div>
+    </main>
   );
 }
