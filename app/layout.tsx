@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
 import StarsCanvas from "@/components/main/StarBackgroud";
+import Navbar from "@/components/main/Navbar";
 
 
 const inter = Inter({
@@ -24,6 +25,7 @@ export default function RootLayout({
         className={`${inter.className} bg[#030014] overflow-y-scroll overflow-x-hidden`}
       >
         <StarsCanvas />
+        <Navbar/>
         {children}
       </body>
     </html>
