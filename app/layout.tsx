@@ -4,7 +4,6 @@ import "./globals.css";
 import StarsCanvas from "@/components/main/StarBackgroud";
 import Navbar from "@/components/main/Navbar";
 
-
 const inter = Inter({
   subsets: ["latin"],
 });
@@ -12,6 +11,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Miloud bendjedda's 💼",
   description: "Miloud bendjedda's portfolio",
+  icons: {
+    icon: { url: "/logoNew.png", type: "image/png" },
+  },
 };
 
 export default function RootLayout({
@@ -22,10 +24,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} bg[#030014] overflow-y-scroll overflow-x-hidden`}
+        className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden`}
       >
         <StarsCanvas />
-        <Navbar/>
+        <Navbar />
         {children}
       </body>
     </html>
