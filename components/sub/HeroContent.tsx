@@ -27,7 +27,7 @@ function HeroContent() {
         </motion.div>
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto max-md:w-[50%]"
+          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto max-md:w-full max-md:px-2.5 max-md:text-3xl max-md:text-center"
         >
           <span className="flex flex-col gap-6">
             Providing
@@ -39,7 +39,7 @@ function HeroContent() {
         </motion.div>
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
+          className="text-lg text-gray-400 my-5 max-w-[600px] max-md:text-[12px] max-md:ml-[13px]"
         >
           I&apos;m a dedicated full-stack developer with a strong focus on
           front-end development, specializing in Next.js, React.js, and React
@@ -50,7 +50,7 @@ function HeroContent() {
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] max-md:max-w-[50%]  max-md:ml-[25%]"
         >
           Learn more!
         </motion.a>
