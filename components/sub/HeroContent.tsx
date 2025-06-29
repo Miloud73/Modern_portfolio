@@ -57,7 +57,7 @@ function HeroContent() {
       </div>
       <motion.div
         variants={slideInFromRight(0.8)}
-        className="w-full h-full flex flex-center items-center"
+        className="w-full h-full flex flex-center items-center max-md:hidden"
       >
         <Image
           src="/mainIconsdark.svg"
