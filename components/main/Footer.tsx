@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { RxGithubLogo, RxLinkedinLogo } from "react-icons/rx";
 
